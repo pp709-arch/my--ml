@@ -1,0 +1,72 @@
+/* Main Background */
+.stApp {
+    background-color: #f3f4f6;
+    font-family: Inter, sans-serif;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #071120 0%, #0a1020 100%);
+    width: 250px !important;
+}
+
+.sidebar-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.nav-item {
+    color: #cbd5e1;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-active {
+    background: #0f2f1f;
+    color: #22c55e;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-top: 4px solid;
+}
+
+.metric-title {
+    font-size: 13px;
+    color: #6b7280;
+    font-weight: 600;
+}
+
+.metric-value {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.metric-change {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.section-card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #111827;
+}
